@@ -1,0 +1,63 @@
+.history{
+    background-color: #faf3dd;
+    padding: 40px;
+    margin: 50px ;
+    border-left: 8px solid #c0a96b;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 1s ease;
+
+}    
+
+
+.history:hover{
+    background-color: #fff9e6;
+    transform: scale(1.03);
+
+}
+
+
+
+nav{
+    height:large;
+    font-size: large;
+    color: whitesmoke;
+    background-color: black;
+}
+
+
+
+.last-div{
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color:#212529;
+    color: whitesmoke;
+}
+
+
+.asha{
+    background-color: #212529;
+}
+
+nav{
+    height: 100px;
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.ram{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
