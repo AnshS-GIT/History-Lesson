@@ -1,0 +1,111 @@
+body{
+    background-color: #f4e3bf;
+    font-family: "Papyrus", "Serif", "Georgia";
+    margin: 0;
+    padding: 0;
+    color: #4a3e2e;
+    background-repeat: repeat;
+    background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png');
+}
+
+h2{
+    color:rgb(107,66,38);
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 2;
+    margin: 20px 0;
+    border-bottom: 3px solid rgb(107,66,38);
+    font-size: 29px;
+    font-weight: bold;
+    text-shadow: 4px 2px rgb(206, 190, 157);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.team-members{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    width: 90%;
+    background-color: rgba(255, 235, 205, 0.8);
+    border: 3px solid rgb(178,147,90);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.team-member{
+    padding: 20px;
+    text-align: center;
+    border: 2px solid rgb(140,109,61);
+    background-color: rgb(249,242,228);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.team-member:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+}
+
+.team-member .member-pic{
+    height: 270px;
+    width: 200px;
+    border: 2px solid rgb(107,66,38);
+    border-radius: 10%;
+    filter: sepia(40%);
+    transition: transform 0.4s ease;
+}
+
+.team-member .member-pic:hover{
+    transform: scale(1.05);
+    filter: sepia(60%);
+}
+
+.social-links{
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgb(201,164,106);
+    display: inline-block;
+    transition: transform 0.4s ease, background-color 0.4s ease;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.social-links:hover{
+    transform: rotate(360deg);
+    background-color: rgb(169,134,82);
+}
+
+.team-member p{
+    margin: 10px 0;
+    font-size: 16px;
+    font-style: italic;
+    text-shadow: 1px 1px rgb(222, 207, 173);
+    color: rgb(87, 72, 57);
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(87, 69, 46);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover{
+    text-shadow: 1px 1px rgb(146, 113, 64);
+    color: rgb(175, 145, 88);
+}
+
+a img{
+    margin: 10px;
+    filter: sepia(50%);
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+a:hover img{
+    transform: rotate(360deg);
+    filter: sepia(80%);
+}
