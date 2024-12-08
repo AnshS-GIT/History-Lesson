@@ -103,12 +103,12 @@ nav {
 }
 
 .carousel-caption {
-    border-radius: 5%;
+    border-radius: 45px;
     color: initial;
     background-color: initial;
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 .carousel-caption:hover {
     color: #008080;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
 }

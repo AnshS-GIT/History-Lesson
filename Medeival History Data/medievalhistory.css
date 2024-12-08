@@ -1,0 +1,125 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    margin: 0px;
+    background: url('https://resources.reed.co.uk/courses/coursemedia/339986/72865976-721b-4bbf-a147-cb13c224f154_cover.webp') no-repeat center center fixed;
+    background-color: rgb(202, 162, 116);
+    color: #4a3e2e;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+    color:rgb(107,66,38);
+    font-size: 3.5rem;
+    margin-top: 20px;
+    text-shadow: 4px 0px 2px rgba(0,0,0,0.4);
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.heading{
+    text-align: center;
+    background-color: rgba(255, 248, 220, 0.9);
+    animation: fadeIn 0.4s ease-in-out;
+    background-size: cover;
+    border: 5px solid rgb(139,107,69);
+    margin: 20px auto;
+    max-width: 2500px;
+    border-radius: 30px;
+}
+
+.moreinfo-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.moreinfo-buttons button{
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: rgb(107,66,38);
+    border-radius: 20%;
+    border: 5px solid rgb(74,62,46);
+    color: beige;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    transition: transform 0.3s, backrground-color 0.3s;
+}
+
+.moreinfo-buttons button:hover{
+    background-color: rgb(140,115,77);
+    transform: scale(1.5);
+}
+
+.timeline{
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 1200px;
+    border: 5px solid rgb(139,107,69);
+    background-color: rgba(255, 248, 220, 0.9);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+    animation: fadeIn 0.4s ease-in-out;
+    background-size: cover;
+}
+
+.event{
+    margin-bottom: 25px;
+    border-left: 5px solid rgb(139,107,69);
+    padding-left: 15px;
+    position: relative;
+    animation: slideIn 0.4s ease-in-out;
+}
+
+.event::before{
+    content: '●';
+    position: absolute;
+    left: -11px;
+    top: 0px;
+    font-size: 20px;
+    color: rgb(139,107,69);
+    background-color: rgba(255, 248, 220, 0.9);
+    padding: 2px;
+}
+
+.event h2{
+    margin-bottom: 0px;
+    color: rgb(139,107,69);
+    font-family: 'Palatino Linotype', 'Book Antiqua', serif;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.event p{
+    margin: 5px 0px 0px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', serif;
+}
+
+.year{
+    font-weight: bold;
+    font-style: italic;
+    color: #555;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes slideIn{
+    from{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
