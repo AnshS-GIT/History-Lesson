@@ -12,10 +12,39 @@ body{
 h1{
     text-align: center;
     color:rgb(107,66,38);
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-top: 20px;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    text-shadow: 4px 0px 2px rgba(0,0,0,0.4);
     animation: fadeIn 0.4s ease-in-out;
+}
+
+.heading{
+    background-color: antiquewhite;
+}
+
+.moreinfo-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.moreinfo-buttons button{
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: rgb(107,66,38);
+    border-radius: 20%;
+    border: 5px solid rgb(74,62,46);
+    color: beige;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    transition: transform 0.3s, backrground-color 0.3s;
+}
+
+.moreinfo-buttons button:hover{
+    background-color: rgb(140,115,77);
+    transform: scale(1.5);
 }
 
 .timeline{

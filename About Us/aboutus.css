@@ -109,3 +109,11 @@ a:hover img{
     transform: rotate(360deg);
     filter: sepia(80%);
 }
+
+footer, h1{
+    text-align: center;
+    color: #f4e3bf;
+    font-size: xx-large;
+    background-color: rgb(87, 21, 21);
+    max-height: 100px;
+}

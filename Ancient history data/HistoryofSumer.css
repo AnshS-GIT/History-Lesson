@@ -1,0 +1,34 @@
+body{
+    line-height: 1.8;
+    margin: 20px;
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+}
+
+.first-para{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.first-para img{
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.first-para p {
+    flex: 1;
+    margin: 0px;
+}
+
+hr{
+    margin: 20px 0px;
+}
+
+.timeline img{
+    max-width: 800px;
+}
