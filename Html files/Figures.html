@@ -3,9 +3,392 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Legandary Figures</title>
+    
+    <link rel="stylesheet", href="./style.css" >
+
 </head>
 <body>
+
+<header>
+    <h1>Legandary Figures</h1>
+    <p>"Unveiling the Echoes of Greatness: Legendary Figures Who Shaped History"</p>
+</header>
+
+<div class="Figures">
+
+    <div class="Ram">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <h2>Alexander the Great</h2>
+        <p>"King of Macedonia and military genius."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Julius Caesar</h2>
+        <p>"Roman general and statesman."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Cleopatra VII</h2>
+        <p>"Last Pharaoh of Ancient Egypt."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Genghis Khan</h2>
+        <p>"Founder of the Mongol Empire."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Genghis Khan</h2>
+        <p>"Founder of the Mongol Empire."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Napoleon Bonaparte</h2>
+        <p>"French military leader and emperor."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Abraham Lincoln</h2>
+        <p>"16th President of the United States, abolished slavery."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Mahatma Gandhi</h2>
+        <p>"Leader of India non-violent independence movement."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Nelson Mandela </h2>
+        <p>"Anti-apartheid revolutionary and President of South Africa."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Winston Churchill</h2>
+        <p>"British Prime Minister during WWII."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Queen Elizabeth I </h2>
+        <p>"Iconic ruler of England during the Elizabethan Era."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Confucius</h2>
+        <p>"Chinese philosopher who founded Confucianism."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Socrates</h2>
+        <p>"Ancient Greek philosopher."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Plato</h2>
+        <p>"Student of Socrates and teacher of Aristotle."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Aristotle</h2>
+        <p>"Greek philosopher and tutor of Alexander the Great."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Karl Marx</h2>
+        <p>"Father of Marxism and co-author of The Communist Manifesto."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Leonardo da Vinci</h2>
+        <p>"Polymath, artist, and inventor of the Renaissance."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Galileo Galilei</h2>
+        <p>"Father of modern observational astronomy."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Isaac Newton</h2>
+        <p>"Formulated the laws of motion and universal gravitation."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Marie Curie</h2>
+        <p>"Pioneer in radioactivity, first woman to win a Nobel Prize."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Albert Einstein</h2>
+        <p>"Developed the theory of relativity."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>William Shakespeare </h2>
+        <p>"English playwright and poet."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Michelangelo</h2>
+        <p>"Renaissance sculptor, painter, and architect."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Johann Wolfgang von Goethe</h2>
+        <p>"German writer and polymath."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Ludwig van Beethoven</h2>
+        <p>"Iconic composer of classical music."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Pablo Picasso</h2>
+        <p>"Revolutionary modern artist."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Buddha (Siddhartha Gautama)</h2>
+        <p>"Founder of Buddhism."</p>
+    </div>
     
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Jesus Christ</h2>
+        <p>"Central figure of Christianity."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Prophet Muhammad</h2>
+        <p>"Founder of Islam."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Moses</h2>
+        <p>"Prophet and leader in Judaism."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Guru Nanak </h2>
+        <p>"Founder of Sikhism."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Christopher Columbus </h2>
+        <p>"Explorer who completed transatlantic voyages."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Ferdinand Magellan</h2>
+        <p>"First circumnavigation of the Earth."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Marco Polo</h2>
+        <p>"Venetian traveler who documented travels in Asia."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Ibn Battuta</h2>
+        <p>"Renowned Islamic traveler and geographer."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Amelia Earhart </h2>
+        <p>"Pioneer aviator and first woman to fly solo across the Atlantic."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Joan of Arc </h2>
+        <p>" French heroine and saint."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Simon Bolivar </h2>
+        <p>"Liberator of South America."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Rosa Parks</h2>
+        <p>" Icon of the American civil rights movement."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Che Guevara</h2>
+        <p>"Revolutionary leader in Latin America."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Florence Nightingale</h2>
+        <p>"Founder of modern nursing."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Chandragupta Maurya</h2>
+        <p>"Founder of the Maurya Empire and unifier of India."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Ashoka the Great</h2>
+        <p>"Mauryan emperor who embraced Buddhism and promoted non-violence."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Raja Raja Chola </h2>
+        <p>"Chola dynasty king known for architectural and administrative achievements."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Krishnadevaraya</h2>
+        <p>" Renowned ruler of the Vijayanagara Empire."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Maharana Pratap</h2>
+        <p>"Rajput king who resisted Mughal dominance."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Shivaji Maharaj </h2>
+        <p>"Founder of the Maratha Empire and a symbol of resistance."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Rani Lakshmibai </h2>
+        <p>"Queen of Jhansi and leader in the First War of Indian Independence."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Bahadur Shah Zafar</h2>
+        <p>"Last Mughal emperor and symbolic leader during the 1857 uprising."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Porus</h2>
+        <p>"Ancient king who valiantly resisted Alexander the Great."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Adi Shankaracharya </h2>
+        <p>"Spiritual leader who brought Indian philosophy to the global stage."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Raja Ram Mohan Roy</h2>
+        <p>"Social reformer and founder of the Brahmo Samaj."</p>
+    </div>
+
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Dr. B.R. Ambedkar </h2>
+        <p>"Architect of the Indian Constitution and social reformer."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Rabindranath Tagor</h2>
+        <p>"Poet, philosopher, and first non-European Nobel laureate in Literature."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Subhas Chandra Bose</h2>
+        <p>"Leader of the Indian National Army (INA)."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Sardar Vallabhbhai Patel </h2>
+        <p>" Leader in India independence movement and unifier of princely states.
+            "</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Jawaharlal Nehru </h2>
+        <p>"India first Prime Minister and a key figure in the independence movement."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Sarojini Naidu</h2>
+        <p>" Poet and freedom fighter, known as the "Nightingale of India."</p>
+    </div>
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Sarojini Naidu</h2>
+        <p>" Poet and freedom fighter, known as the "Nightingale of India."</p>
+    </div>
+
+
+    <div class="Ram">
+        <img src="https://images.thequint.com/thequint%2F2019-01%2Fd05eced7-87ae-4d8e-88b2-87b0fd2f0404%2FScreen_Shot_2019_01_10_at_3_53_11_PM.png?rect=0%2C0%2C1048%2C590" alt="">
+        <h2>Chanakya</h2>
+        <p>"Ancient philosopher, economist, and advisor to Chandragupta Maurya, known for writing the Arthashastra."</p>
+    </div>
+
+
+</div>
+
+
+
+
+<footer>
+    <p>© 2024 History Lesson. All rights reserved.</p>
+</footer>
+
 </body>
-</html>
