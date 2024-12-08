@@ -19,7 +19,14 @@ h1{
 }
 
 .heading{
-    background-color: antiquewhite;
+    text-align: center;
+    background-color: rgba(255, 248, 220, 0.9);
+    animation: fadeIn 0.4s ease-in-out;
+    background-size: cover;
+    border: 5px solid rgb(139,107,69);
+    margin: 20px auto;
+    max-width: 2500px;
+    border-radius: 30px;
 }
 
 .moreinfo-buttons{
