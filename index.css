@@ -82,17 +82,17 @@ nav {
 .carousel-item img {
     height: 100%;
     width: 100%;
-    filter: blur(8px);
+    /* filter: blur(8px); */
 }
 .carousel-caption {
     border-radius: 45px;
     color: initial;
-    background-color: initial;
+    background-color: rgba(0,0,10,0.3);
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 .carousel-caption:hover {
     color: #008080;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
