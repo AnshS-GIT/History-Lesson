@@ -25,15 +25,19 @@ nav {
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
-    background-color: rgba(80,0,0,0.7);
+    background-color: rgba(0,0,0,1);
     color: whitesmoke;
 }
 .navbar.asha {
-    background-color: rgba(80,0,0,0.7);
+    color: wheat;
+    background-color: #FAF3DD;
     border-bottom: 2px solid black;
 }
 .navbar .nav-link {
-    color: white;
+    border-radius: 20px;
+    border: 3px transparent solid;
+    background-color: #3e3d3a;
+    color: black;
     transition: color 0.3s ease-in-out;
 }
 .navbar .nav-link:hover,
