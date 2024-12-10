@@ -30,13 +30,13 @@ nav {
 }
 .navbar.asha {
     color: wheat;
-    background-color: rgb(107, 105, 105);
+    background-color: black;
     border-bottom: 2px solid black;
 }
 .navbar .nav-link {
     border-radius: 20px;
     border: 3px transparent solid;
-    background-color: #3e3d3a;
+    background-color: #F5F5DC;
     color: black;
     transition: color 0.3s ease-in-out;
 }
