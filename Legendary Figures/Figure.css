@@ -89,4 +89,7 @@ footer {
 }
 .home-button>img{
     margin: 0 5px 6px 0;
+    vertical-align: middle; 
+    width: 20px; 
+    height: 20px;
 }
