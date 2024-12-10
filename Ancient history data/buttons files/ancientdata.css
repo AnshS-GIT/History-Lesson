@@ -33,3 +33,21 @@ hr{
     margin: auto;
     text-align: center;
 }
+
+button {
+    margin: 20px 0;
+    background-color: rgb(117, 77, 57);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    transform: scale(1.3);
+}
