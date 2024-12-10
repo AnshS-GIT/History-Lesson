@@ -2,8 +2,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.8;
     margin: 0px;
-    background: url('https://defencedirecteducation.com/wp-content/uploads/2022/04/ezgif-5-d9a1447572-696x464.jpg') no-repeat center center fixed;
-    background-color: rgb(202, 162, 116);
+    background: url('https://img.freepik.com/free-photo/futuristic-view-high-tech-earth-planet_23-2151100433.jpg') no-repeat center center fixed;
+    background-color: rgb(25, 27, 47);
     color: #4a3e2e;
     background-size: cover;
    
@@ -11,7 +11,7 @@ body{
 
 h1{
     text-align: center;
-    color:rgb(107,66,38);
+    color:rgb(162, 231, 224);
     font-size: 3.5rem;
     margin-top: 20px;
     text-shadow: 4px 0px 2px rgba(0,0,0,0.4);
@@ -20,10 +20,10 @@ h1{
 
 .First{
     text-align: center;
-    background-color: rgba(255, 248, 220, 0.9);
+    background-color: rgba(180, 195, 193, 0.9);
     animation: fadeIn 0.4s ease-in-out;
     background-size: cover;
-    border: 5px solid rgb(139,107,69);
+    border: 5px solid rgba(50, 75, 138, 0.9);
     margin: 20px auto;
     max-width: 2500px;
     border-radius: 30px;
@@ -38,7 +38,7 @@ h1{
 .Second button{
     padding: 10px 15px;
     margin: 10px;
-    background-color: rgb(107,66,38);
+    background-color: rgba(0, 178, 154, 0.9);
     border-radius: 60px;
     border: 5px solid rgb(74,62,46);
     color: beige;
@@ -59,8 +59,8 @@ h1{
     margin: 20px auto;
     padding: 30px;
     max-width: 1200px;
-    border: 5px solid rgb(139,107,69);
-    background-color: rgba(255, 248, 220, 0.9);
+    border: 5px solid rgba(50, 75, 138, 0.9);
+    background-color: rgba(180, 195, 193, 0.9);
     border-radius: 50px;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
     animation: fadeIn 0.4s ease-in-out;
@@ -70,7 +70,7 @@ h1{
 
 .event{
     margin-bottom: 25px;
-    border-left: 5px solid rgb(139,107,69);
+    border-left: 5px solid rgba(50, 75, 138, 0.9);
     padding-left: 15px;
     position: relative;
     animation: slideIn 0.4s ease-in-out;
@@ -82,14 +82,14 @@ h1{
     left: -11px;
     top: 0px;
     font-size: 20px;
-    color: rgb(139,107,69);
-    background-color: rgba(255, 248, 220, 0.9);
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 195, 193);
     padding: 2px;
 }
 
 .event h2{
     margin-bottom: 0px;
-    color: rgb(139,107,69);
+    color: rgb(255, 255, 255);
     font-family: 'Palatino Linotype', 'Book Antiqua', serif;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 }
@@ -110,8 +110,8 @@ h1{
 .home-button {
     padding: 0 2px 0 0 ;
     margin: 20px 20px;
-    background-color: rgba(255, 248, 220, 0.9);
-    color: black;
+    background-color: rgba(129, 125, 184, 0.9);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -121,7 +121,7 @@ h1{
 }
 
 .home-button:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 89, 255, 0.5);
     color: white;
     transform: scale(1.3);
 }
