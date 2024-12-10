@@ -2,16 +2,16 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.8;
     margin: 0px;
-    background: url('https://resources.reed.co.uk/courses/coursemedia/339986/72865976-721b-4bbf-a147-cb13c224f154_cover.webp') no-repeat center center fixed;
-    background-color: rgb(202, 162, 116);
-    color: #4a3e2e;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/EB1911_-_Painting_-_Plate_III_-_Fig._11.jpg/700px-EB1911_-_Painting_-_Plate_III_-_Fig._11.jpg') no-repeat center center fixed;
+    background-color: rgb(61, 59, 59);
+    color: rgb(61, 60 , 59);
     background-size: cover;
     scroll-behavior: smooth;
 }
 
 h1{
     text-align: center;
-    color:rgb(107,66,38);
+    color:rgb(61,60,59);
     font-size: 3.5rem;
     margin-top: 20px;
     text-shadow: 4px 0px 2px rgba(0,0,0,0.4);
@@ -20,10 +20,10 @@ h1{
 
 .heading{
     text-align: center;
-    background-color: rgba(255, 248, 220, 0.9);
+    background-color: rgba(175, 174, 170, 0.9);
     animation: fadeIn 0.4s ease-in-out;
     background-size: cover;
-    border: 5px solid rgb(139,107,69);
+    border: 5px solid rgb(61, 60, 59);
     margin: 20px auto;
     max-width: 2500px;
     border-radius: 30px;
@@ -38,19 +38,19 @@ h1{
 .moreinfo-buttons button{
     padding: 10px 15px;
     margin: 10px;
-    background-color: rgb(107,66,38);
+    background-color: rgb(136, 133, 130);
     border-radius: 20%;
-    border: 5px solid rgb(74,62,46);
-    color: beige;
+    border: 5px solid rgb(61, 60, 59);
+    color: rgb(61, 61, 59);
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
     transition: transform 0.3s, backrground-color 0.3s;
 }
 
 .moreinfo-buttons button:hover{
-    background-color: rgb(140,115,77);
+    background-color: rgb(255, 255, 255);
     transform: scale(1.5);
 }
 
@@ -58,8 +58,8 @@ h1{
     margin: 20px auto;
     padding: 30px;
     max-width: 1200px;
-    border: 5px solid rgb(139,107,69);
-    background-color: rgba(255, 248, 220, 0.9);
+    border: 5px solid rgb(61, 60, 58);
+    background-color: rgb(175, 174, 170, 0.9);
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
     animation: fadeIn 0.4s ease-in-out;
@@ -68,7 +68,7 @@ h1{
 
 .event{
     margin-bottom: 25px;
-    border-left: 5px solid rgb(139,107,69);
+    border-left: 5px solid rgb(61, 60, 59);
     padding-left: 15px;
     position: relative;
     animation: slideIn 0.4s ease-in-out;
@@ -80,14 +80,14 @@ h1{
     left: -11px;
     top: 0px;
     font-size: 20px;
-    color: rgb(139,107,69);
-    background-color: rgba(255, 248, 220, 0.9);
+    color: rgb(83, 82, 81);
+    background-color: rgba(61, 60 , 59);
     padding: 2px;
 }
 
 .event h2{
     margin-bottom: 0px;
-    color: rgb(139,107,69);
+    color: rgb(61, 60, 58);
     font-family: 'Palatino Linotype', 'Book Antiqua', serif;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 }
